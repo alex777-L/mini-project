@@ -38,6 +38,65 @@ li{
 h1{
     font-size: 60px;
 }
-nav{
+/* 
+Nav
+ */
 
+ nav {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 24px 12px; 
+    background-color: white;
+
+ }
+
+ .logo {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+
+ }
+ .logo__img {
+    width: 40px;
+    margin-top: 8px;
+ }
+.logo__text{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+/* 
+
+header
+
+*/
+
+header{
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 8px; 
+}
+.row__course {
+    border-left: 1px dashed #cbd5e1;
+
+}
+.course { 
+    display: flex;
+    justify-content: start;
+    margin-left:40px;
+    gap: 20px;
+    align-items: center;
+    padding: 8px 0;
 }
